@@ -36,6 +36,8 @@ Run the included example:
 python example.py
 ```
 
+<center><img src="./images/demo.png" /></center>
+
 ## API Reference
 
 ### `setup_change_cdn_plugin()`
