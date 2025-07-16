@@ -42,10 +42,6 @@ python example.py
 
 This function enables the CDN source changing feature for your Dash application.
 
-| Parameter    | Type                                                  | Default       | Description                                              |
-| ------------ | ----------------------------------------------------- | ------------- | -------------------------------------------------------- |
-| `cdn_source` | `Literal["npmmirror", "jsdelivr", "fastly-jsdelivr"]` | `"npmmirror"` | The CDN source to use for static resources. Options are: |
-
-- "npmmirror": Uses registry.npmmirror.com (China mirror)
-- "jsdelivr": Uses cdn.jsdelivr.net
-- "fastly-jsdelivr": Uses fastly.jsdelivr.net |
+| Parameter    | Type                                                  | Default       | Description                                                                                                |
+| ------------ | ----------------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------- |
+| `cdn_source` | `Literal["npmmirror", "jsdelivr", "fastly-jsdelivr"]` | `"npmmirror"` | The CDN source to use for static resources. Options are: `"npmmirror"`, `"jsdelivr"`, `"fastly-jsdelivr"`. |
