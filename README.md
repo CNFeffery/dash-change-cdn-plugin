@@ -4,7 +4,9 @@
 [![PyPI](https://img.shields.io/pypi/v/dash-change-cdn-plugin.svg?color=dark-green)](https://pypi.org/project/dash-change-cdn-plugin/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-CDN source changing plugin for Dash applications using Dash Hooks. This plugin allows you to switch between different CDN sources for your Dash app's static resources.
+English | [简体中文](./README-zh_CN.md)
+
+CDN source changing plugin for Dash applications using Dash Hooks, This plugin allows you to switch between different CDN sources for your Dash app's static resources.
 
 ## Installation
 
@@ -25,6 +27,7 @@ setup_change_cdn_plugin()
 
 # Remember to set serve_locally=False
 app = dash.Dash(__name__, serve_locally=False)
+
 # Rest of your app code...
 ```
 
